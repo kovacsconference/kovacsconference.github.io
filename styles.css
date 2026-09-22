@@ -80,6 +80,12 @@ main:not(.home-main) { max-width: var(--max-width); min-height: 65vh; margin: au
 .facts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin: 2.5rem 0 0; }
 .fact { padding: 1.3rem; border-top: .3rem solid var(--gold); background: var(--cream); }
 .fact strong { display: block; color: var(--purple-dark); font-family: Georgia, serif; font-size: 1.25rem; }
+.organizers-section { padding-top: 0; }
+.organizers-section h2 { margin-bottom: 1.25rem; }
+.organizer-list { max-width: 46rem; margin: 0; padding-left: 1.4rem; }
+.organizer-list li { margin: .55rem 0; padding-left: .25rem; }
+.organizer-list span { color: var(--muted); }
+.organizer-list span::before { content: " — "; }
 
 .speaker-list { min-width: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); gap: .8rem; padding: 0; list-style: none; }
 .speaker-card { min-width: 0; min-height: 9.5rem; padding: 1.15rem; border: 1px solid var(--line); border-left: .3rem solid var(--purple); background: white; display: flex; align-items: center; gap: 1.15rem; }
